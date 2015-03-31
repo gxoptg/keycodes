@@ -1,4 +1,5 @@
 var keyCodes = {
+   3 : "break",
    8 : "backspace / delete",
    9 : "tab",
    12 : 'clear',
@@ -99,6 +100,9 @@ var keyCodes = {
    130 : "f19",
    144 : "num lock ",
    145 : "scroll lock",
+   173 : "mute/unmute",
+   174 : "desrease volume level",
+   175 : "increase volume level",
    186 : "semi-colon ",
    187 : "equal sign ",
    188 : "comma",
@@ -111,7 +115,8 @@ var keyCodes = {
    221 : "close bracket ",
    222 : "single quote ",
    224 : "left or right ⌘ key (firefox)",
-   225 : "altgr"
+   225 : "altgr",
+   255 : "toggle touchpad"
 }
 
 $(function(){
